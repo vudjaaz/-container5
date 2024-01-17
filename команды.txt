@@ -1,0 +1,69 @@
+   1  ls
+   2  mkdir file1
+   3  ls
+   4  cd file1
+   5  nano compose.yaml
+   6  cd ..
+   7  docker-swarm init
+   8  docker swarm init
+   9  snap install docker
+   10  docker swarm init
+   11  docker compose version
+   12  cd file1
+   13  nano compose.yaml
+   14  ls
+   15  docker compose -d
+   16  docker compose d
+   17  docker compose up -d
+   18  docker compose ps
+   19  docker compose ls
+   20  docker compose images
+   21  docker node ls
+   22  docker compose up -d
+   23  docker ps -a
+   24  ping 192.168.19.1
+   25  ping 192.168.56.1
+   26  cd ..
+   27  ls
+   28  docker compose up -d
+   29  ls
+   30  docker compose exec adminer ps
+   31  docker compose exec adminer ls
+   32  docker compose db ls
+   33  docker compose exec db ls
+   34  docker compose exec adminer bash
+   35  docker compose exec db bash
+   36  docker compose restart
+   37  docker compose ps
+   38  docker node ls
+   39  ps -a
+   40  docker compose images
+   41  docker swarm init
+   42  docker swarm version
+   43  swarm init
+   44  apt install swarm
+   45  ls
+   46  cd ..
+   47  ls
+   48  docker swarm init
+   49  docker swarm version
+   50  docker swarm update
+   51  docker images
+   52  docker network ls
+   53  docker service create --name mariadb_service --replicas 1 -e MYSQL_ROOT_PASSWORD=12345 -p 3306:3306 --network ingress mariadb:10.10.2
+   54  docker service create --name mariadb_service --replicas 2 -e MYSQL_ROOT_PASSWORD=12345 -p 3306:3306 --network ingress mariadb:10.10.2
+   55  docker services
+   56  docker service
+   57  docker service create --name mariadb_service --replicas 2 -e MYSQL_ROOT_PASSWORD=12345 -p 3306:3306 --network ingress mariadb:10.10.2
+   58  docker service create --name mariadb_service --replicas 2 -e MYSQL_ROOT_PASSWORD=12345 -p 3306:3306 mariadb:10.10.2
+   59  docker service ps mariadb_service
+   60  docker ps
+   61  docker service create --name nginx_service --replicas 4 -p 8080:80 nginx:latest
+   62  docker ps
+   63  ps -a
+   64  ls
+   65  cd hw5
+   66  ls
+   67  cd ..
+   68  ls
+   69  history
